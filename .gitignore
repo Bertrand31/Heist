@@ -1,0 +1,9 @@
+project/project
+project/target
+target
+.bloop
+.metals
+version.sbt
+.idea
+.terraform
+.bsp
