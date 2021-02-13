@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala:20:46: not enough arguments for method detectionProbability: (bankMap: heist.BankMap, coordinates: heist.BankCoordinate): Double.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter coordinates.[0m
+[0m[[0m[31merror[0m] [0m[0m    val endProbability = detectionProbability(BankCoordinate(bankMap.width / 2, bankMap.width))[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

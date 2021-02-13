@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/heist_2.13-1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	heist[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/classes/heist[0m
+[0m[[0m[0mdebug[0m] [0m[0m	heist/MapUtils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/classes/heist/MapUtils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	heist/MathUtils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/classes/heist/MathUtils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	heist/BankCoordinate$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/classes/heist/BankCoordinate$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	heist/MathUtils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/classes/heist/MathUtils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	heist/BankMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/classes/heist/BankMap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	heist/BankMap$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/classes/heist/BankMap$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	heist/MapUtils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/classes/heist/MapUtils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	heist/BankCoordinate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/classes/heist/BankCoordinate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	heist/MapUtils$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/classes/heist/MapUtils$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	heist/KafkaRavane.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/classes/heist/KafkaRavane.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	heist/KafkaRavane$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/bertrandjunqua/Code/Tweag/target/scala-2.13/classes/heist/KafkaRavane$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

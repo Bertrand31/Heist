@@ -1,0 +1,583 @@
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [tweag / Compile / compile] Found inputs: /Users/bertrandjunqua/Code/Tweag/*.{java,scala},/Users/bertrandjunqua/Code/Tweag/src/main/java/**/*.{java,scala},/Users/bertrandjunqua/Code/Tweag/src/main/resources/**/*,/Users/bertrandjunqua/Code/Tweag/src/main/scala/**/*.{java,scala},/Users/bertrandjunqua/Code/Tweag/src/main/scala-2.13/**/*.{java,scala}[0m
+[0m[[0m[0minfo[0m] [0m[0m1. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(77fdc1cbbccc1350f711ca02fc129007082c74de), current stamp: Hash(578239d8707e51476f7165044402614cd0d3df32))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:53:25.945 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:53:25.945 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m2. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(578239d8707e51476f7165044402614cd0d3df32), current stamp: Hash(77fdc1cbbccc1350f711ca02fc129007082c74de))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:54:11.208 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:54:11.208 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m3. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(77fdc1cbbccc1350f711ca02fc129007082c74de), current stamp: Hash(7b0c840a9910f257d1f760070db2d21ffabfc5d6))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:54:29.395 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:54:29.395 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m4. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(7b0c840a9910f257d1f760070db2d21ffabfc5d6), current stamp: Hash(77fdc1cbbccc1350f711ca02fc129007082c74de))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:54:43.858 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:54:43.858 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m5. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(77fdc1cbbccc1350f711ca02fc129007082c74de), current stamp: Hash(58dac83afaad1ce40501915bc5dde0ff37b06312))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:55:53.149 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:55:53.149 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m6. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(58dac83afaad1ce40501915bc5dde0ff37b06312), current stamp: Hash(fb1ee280142d5e147afdf957009042368b6e439d))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:56:30.578 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:56:30.578 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m7. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(fb1ee280142d5e147afdf957009042368b6e439d), current stamp: Hash(995f605364fdc67a549842ff27ae2869bd837064))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:56:38.930 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:56:38.930 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m8. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(995f605364fdc67a549842ff27ae2869bd837064), current stamp: Hash(8d9bb19b550fe10dd37ffac380a8a1a0b5e95ff9))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:57:23.804 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:57:23.804 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m9. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(8d9bb19b550fe10dd37ffac380a8a1a0b5e95ff9), current stamp: Hash(b6cc731113be0dfb5f5fec6175fe77a8547040ec))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:59:32.399 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 20:59:32.399 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m10. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(b6cc731113be0dfb5f5fec6175fe77a8547040ec), current stamp: Hash(132600d626e5826d2fcd2b5797b216e1c1eee483))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:01:29.300 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:01:29.300 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m11. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(132600d626e5826d2fcd2b5797b216e1c1eee483), current stamp: Hash(0b9b397fc4540899402215dd10556138548660cf))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:02:00.959 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:02:00.959 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m12. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(0b9b397fc4540899402215dd10556138548660cf), current stamp: Hash(11eb9b1f6f8205d9b22160d123a46eaea7706fcd))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:02:18.989 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:02:18.989 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m13. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(11eb9b1f6f8205d9b22160d123a46eaea7706fcd), current stamp: Hash(ced1c74ea65c32b0c441fadc4d9265a59df7ec3c))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:03:00.599 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:03:00.599 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m14. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(ced1c74ea65c32b0c441fadc4d9265a59df7ec3c), current stamp: Hash(8189f0ccfa1ed5163fc49d3292a795c091906f13))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:07:20.237 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:07:20.237 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m15. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(8189f0ccfa1ed5163fc49d3292a795c091906f13), current stamp: Hash(04a1e0905ab228bc6b97abe3e8b690d293bef210))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:08:17.991 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:08:17.991 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m16. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(04a1e0905ab228bc6b97abe3e8b690d293bef210), current stamp: Hash(47db6e1fed6b2a2c4b944ed9d2692917f8f526a3))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:08:44.588 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:08:44.588 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m17. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(47db6e1fed6b2a2c4b944ed9d2692917f8f526a3), current stamp: Hash(b441c60b45285182d31a4e169c870a50d1ca0cc9))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:10:08.964 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:10:08.964 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m18. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(b441c60b45285182d31a4e169c870a50d1ca0cc9), current stamp: Hash(5e5d4e58a2ac283242a135d2a08cad19f50c932f))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:10:26.116 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:10:26.116 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m19. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(5e5d4e58a2ac283242a135d2a08cad19f50c932f), current stamp: Hash(7ecfaff6812d22592a155dd056e92996a0d1afdd))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:11:13.857 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:11:13.857 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m20. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(7ecfaff6812d22592a155dd056e92996a0d1afdd), current stamp: Hash(0c07f6f1154c68db26a882e2b93a4ef358447a72))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:11:31.164 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:11:31.164 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m21. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(0c07f6f1154c68db26a882e2b93a4ef358447a72), current stamp: Hash(e84663d70254ce69fedeaac63a64d0b0dbb245ed))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:11:48.244 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:11:48.244 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m22. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(e84663d70254ce69fedeaac63a64d0b0dbb245ed), current stamp: Hash(70921e9863e420d4208bf39533f56df1edd1000e))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:12:10.568 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:12:10.568 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m23. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(70921e9863e420d4208bf39533f56df1edd1000e), current stamp: Hash(789939b05efc2efc1022f9fa810a59115cec14fc))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:13:13.896 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:13:13.896 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m24. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(789939b05efc2efc1022f9fa810a59115cec14fc), current stamp: Hash(be1044994183abcd1e64eeab5d43b1adf69e1ff0))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:17:17.603 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:17:17.603 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m25. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(be1044994183abcd1e64eeab5d43b1adf69e1ff0), current stamp: Hash(51982fc7d66e3f1fa7530d2f1dd55bbf4186a2c9))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:18:27.066 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:18:27.066 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m26. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(51982fc7d66e3f1fa7530d2f1dd55bbf4186a2c9), current stamp: Hash(be1044994183abcd1e64eeab5d43b1adf69e1ff0))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:18:39.074 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:18:39.074 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m27. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Creation(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala -> Trigger. Returning: (Creation(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala, 2021-févr.-13 21:26:05.725 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Creation(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala, 2021-févr.-13 21:26:05.725 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m28. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDiscarding entry for recently updated path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala. This event occurred 7 ms since the last event for this path.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(be1044994183abcd1e64eeab5d43b1adf69e1ff0), current stamp: Hash(c2eb77181bed892b6a389b20c6d1a8fdd01c9a6c))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:26:13.793 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:26:13.793 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m29. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala (previous stamp: Hash(be1044994183abcd1e64eeab5d43b1adf69e1ff0), current stamp: Hash(403eb2060cfd7399858e531974e45384a110e269))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala, 2021-févr.-13 21:26:19.017 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala, 2021-févr.-13 21:26:19.017 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m30. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala (previous stamp: Hash(403eb2060cfd7399858e531974e45384a110e269), current stamp: Hash(f61e474db911b1cf93f8456f0cf4e144f343af9b))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala, 2021-févr.-13 21:26:23.770 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Types.scala, 2021-févr.-13 21:26:23.770 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m31. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Creation(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala -> Trigger. Returning: (Creation(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala, 2021-févr.-13 21:26:37.556 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Creation(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala, 2021-févr.-13 21:26:37.556 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m32. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala (previous stamp: Hash(c2eb77181bed892b6a389b20c6d1a8fdd01c9a6c), current stamp: Hash(87ffd77bf535a31af56e37c2fbdb1e24bb2b5b09))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala, 2021-févr.-13 21:27:14.958 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala, 2021-févr.-13 21:27:14.958 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m33. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Deletion(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mQuarantining deletion event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala for 500 milliseconds[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MathUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Creation(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MathUtils.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MathUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MathUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MathUtils.scala -> Trigger. Returning: (Creation(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MathUtils.scala, 2021-févr.-13 21:27:19.066 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MathUtils.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Creation(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MathUtils.scala, 2021-févr.-13 21:27:19.066 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m34. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mTriggering event for previously quarantined deleted file: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mQuarantining deletion event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala for 500 milliseconds[0m
+[0m[[0m[0mdebug[0m] [0m[0mTriggering event for previously quarantined deleted file: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala -> Trigger. Returning: (Deletion(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala, 2021-févr.-13 21:27:19.062 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Deletion(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Utils.scala, 2021-févr.-13 21:27:19.062 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m35. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(c2eb77181bed892b6a389b20c6d1a8fdd01c9a6c), current stamp: Hash(41f851c5a563738493cb86fb641df38b9a1c5eac))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:27:26.695 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:27:26.695 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m36. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(41f851c5a563738493cb86fb641df38b9a1c5eac), current stamp: Hash(1a20ff4b4e73f49e9f493186a95407ae83daf0a2))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:27:38.901 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:27:38.901 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m37. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(1a20ff4b4e73f49e9f493186a95407ae83daf0a2), current stamp: Hash(bb5d530219dc5ddcc93a81ea42491835eba0db0b))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:27:57.928 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:27:57.928 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m38. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Creation(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala -> Trigger. Returning: (Creation(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala, 2021-févr.-13 21:28:19.177 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Creation(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala, 2021-févr.-13 21:28:19.177 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m39. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala (previous stamp: Hash(bb5d530219dc5ddcc93a81ea42491835eba0db0b), current stamp: Hash(4c817e7ba0cb5ed272e0f0c9fe85ae8b0d60d742))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala, 2021-févr.-13 21:29:52.157 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala, 2021-févr.-13 21:29:52.157 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m40. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala (previous stamp: Hash(4c817e7ba0cb5ed272e0f0c9fe85ae8b0d60d742), current stamp: Hash(fe8daef2c1ea0f620e82084f2c7f191f9c394018))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala, 2021-févr.-13 21:30:09.203 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/MapUtils.scala, 2021-févr.-13 21:30:09.203 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m41. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(bb5d530219dc5ddcc93a81ea42491835eba0db0b), current stamp: Hash(443fc9365d1fabf152059d62eec37fd32cac5d3b))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:30:24.825 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:30:24.825 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m42. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(443fc9365d1fabf152059d62eec37fd32cac5d3b), current stamp: Hash(231dafdcfa06c6b8090f71534d6c5c779c40dec5))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:30:51.540 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:30:51.540 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m43. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(231dafdcfa06c6b8090f71534d6c5c779c40dec5), current stamp: Hash(aba4613f32605f1ae2baf701fd8a346dbec08ac9))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:30:54.733 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:30:54.733 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m44. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(aba4613f32605f1ae2baf701fd8a346dbec08ac9), current stamp: Hash(025a8a77e80c57ac32d93bd8396084427340c598))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:32:03.650 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:32:03.650 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m45. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(025a8a77e80c57ac32d93bd8396084427340c598), current stamp: Hash(c3510d0063c99ff3edb874822d7dff60f67b1f24))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:34:35.184 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:34:35.184 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m46. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(c3510d0063c99ff3edb874822d7dff60f67b1f24), current stamp: Hash(7141f30897946428e7d1ecdb4ced414d0e7255fa))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:34:46.504 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:34:46.504 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m47. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(7141f30897946428e7d1ecdb4ced414d0e7255fa), current stamp: Hash(6f1c2b4a81c69cc04fd0ea4363b7c1ade92a1927))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:34:57.660 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:34:57.660 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m48. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(6f1c2b4a81c69cc04fd0ea4363b7c1ade92a1927), current stamp: Hash(e34cd2ef5005a819e7c240e8cdb6b6fd95d5aa2c))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:35:37.743 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:35:37.743 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m49. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(e34cd2ef5005a819e7c240e8cdb6b6fd95d5aa2c), current stamp: Hash(ce83632c6f25fdd62720b589a2e72eb7c98fc02e))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:35:55.170 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:35:55.170 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m50. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(ce83632c6f25fdd62720b589a2e72eb7c98fc02e), current stamp: Hash(01d2b9cbfce8fa579d5e112de844f3ded8828002))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:37:09.014 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:37:09.014 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m51. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(01d2b9cbfce8fa579d5e112de844f3ded8828002), current stamp: Hash(6133507d911d1ab3c1148bbcb597154ca612c200))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:43:45.558 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:43:45.558 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m52. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(6133507d911d1ab3c1148bbcb597154ca612c200), current stamp: Hash(dc529cbb0695d86dd5fe299e6a1e240d7c683f24))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:43:58.472 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:43:58.472 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m53. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(dc529cbb0695d86dd5fe299e6a1e240d7c683f24), current stamp: Hash(f45e2fae90b54f31c8ce1442d379d38cdbcbb846))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:44:20.522 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:44:20.522 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m54. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(f45e2fae90b54f31c8ce1442d379d38cdbcbb846), current stamp: Hash(f3eafea194c4383bfc5ca8732f051ec3835764f2))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:44:50.802 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:44:50.802 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m55. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(f3eafea194c4383bfc5ca8732f051ec3835764f2), current stamp: Hash(04dfee556b6f8806d258a0f297207ae55c5bfa0a))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:45:21.652 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:45:21.652 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m56. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(04dfee556b6f8806d258a0f297207ae55c5bfa0a), current stamp: Hash(0d5506431e4c0eb5bf3c79d2c530cbb33cb5dbd9))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:49:09.904 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:49:09.904 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m57. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(0d5506431e4c0eb5bf3c79d2c530cbb33cb5dbd9), current stamp: Hash(aad51dc5146f318e77136cb656be16f84c726754))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:49:49.066 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:49:49.066 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m58. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mtweag / Compile / compile - Accepted event for /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala (previous stamp: Hash(aad51dc5146f318e77136cb656be16f84c726754), current stamp: Hash(21fb26da96924ac1c9f1e6c77a528b4c82cda7eb))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala -> Trigger. Returning: (Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:53:07.784 CET),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala. Running 'compile'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/bertrandjunqua/Code/Tweag/src/main/scala/heist/Heist.scala, 2021-févr.-13 21:53:07.784 CET).[0m
+[0m[[0m[0minfo[0m] [0m[0m59. Monitoring source files for tweag/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m

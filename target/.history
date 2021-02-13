@@ -1,0 +1,14 @@
+~compile
+testOnly **PerfSpec**
+~compile
+reload
+~compile
+reload
+~compile
+reload
+~compile
+run bank.map
+run bank.map<l
+run bank.map
+run
+run bank.map
