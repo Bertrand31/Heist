@@ -11,10 +11,9 @@ object MapUtils {
 
   def loadMap(path: String): IO[BankMap] =
     loadFile(path).map(mapDefinition => {
-      val head +: tail = mapDefinition.iterator.to(List)
+      val head +: _ +: detectors = mapDefinition.iterator.to(List)
       val coordinates =
-        tail
-          .tail
+        detectors
           .map(_.split(' '))
           .collect({ case Array(x, y) => BankCoordinate(x.toDouble, y.toDouble) })
       BankMap(head.toFloat, coordinates)
