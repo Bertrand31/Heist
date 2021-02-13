@@ -38,4 +38,12 @@ class MathUtilsSpec extends AnyFlatSpec {
     val b = BankCoordinate(1.3, 3.1)
     assert(MathUtils.euclidianDistance(a, b) === 0)
   }
+
+  behavior of "the probabilities reduction function"
+
+  it should "calculate the probability of multiple events all occuring" in {
+
+    val probabilities = List(1D/6D, 1D/6D, 1D/6D)
+    assert(MathUtils.reduceProbabilities(probabilities) === 0.42129629629629617)
+  }
 }
