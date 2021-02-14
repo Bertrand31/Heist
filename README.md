@@ -1,86 +1,32 @@
 # Heist
 
-## The problem
+## Prerequisites
 
-You are a burglar, robbing a bank. In order to get to the vault, you must go through a room with a
-number of detectors, whose efficacy in detecting the presence of a moving object is a function of
-the distance of that object with the detector. Your goal is to find, with the highest precision
-possible, the path across the room with the lowest probability of detection.
+Make sure you have Java, Scala and SBT installed locally.
 
-You will write a program that, given the description of the room including your starting position
-and the location of the vault, produces a single floating point number as output. This floating
-point number represents the lowest probability of detection achievable given the number and location
-of the detectors, rounded to the 3th decimal digit.
+## How to run it through SBT
 
-## The solution
+First, launch SBT from inside the Heist's repo by calling `sbt`.
+Then from inside the SBT prompt, call `run bank.map`, where `bank.map` is a path to the bank map
+file (a sample one is provided, at the root of the repo).
 
-First, we simplify the problem by making a continuous space discrete: we generate a grid, making the
-bank's room somewhat of a chessboard.
-On this grid, the burglar will travel from intersection to intersection.
-
+Sample output:
 ```
-___________•__________  <- the • here represents the vault
-|__|__|__|__|__|__|__|
-|__|__|__|__|__|__|_+|
-|__|__|__|__|__|__|__|
-|__|__|__|__|__|__|__|
-|__|__|__|__|__|__|__|
-|__|+_|__|__|__|__|__|  <- each + represents a detector
-|__|__|__|__|__|__|__|
-|  |  |  |  |  |  |  |
-‾‾‾‾‾‾‾‾‾‾‾•‾‾‾‾‾‾‾‾‾   <- the • here represents the entrance
+$> sbt
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 11.0.9)
+(………)
+[info] started sbt server
+sbt:Heist> run bank.map
+[info] running heist.Heist bank.map
+0.811
+[success] Total time: 1 s, completed 14 févr. 2021 à 18:38:19
 ```
 
-We then compute a "heatmap" of detectors over that grid, mapping each intersection to how likely it
-is that any detector would ring the alarm if the burglar were to stand on that intersection.
+## How to generate a package
 
-```
-___________•__________
-|_0|.1|.1|.1|.3|.5|.6|
-|_0|.1|.2|.2|.4|.6|_1|
-|.4|.4|.3|.4|.5|.6|.6|   The values here are just meant to illustrate the approach.
-|.5|.5|.4|.4|.4|.4|.4|
-|.5|.6|.5|.4|.2|.2|.2|
-|.6|_1|.6|.4|.3|.2|.2|
-|.6|.6|.4|.4|.3|.2|.1|
-|.5|.4|.3|.2|.1|.1|.1|
-‾‾‾‾‾‾‾‾‾‾‾•‾‾‾‾‾‾‾‾‾
-```
+Another way of using Heist is to generate a package, that you can then run without using SBT.
+You can generate it by typing `sbt universal:packageBin`.
 
-Then, we pick the path our burglar will follow: each step he will take will be forward, and will be
-on the intersection with the lowest probability of being detected.
+Then, uncompress the resulting archive: `unzip ./target/universal/heist-1.zip`.
 
-```
-___________•__________
-|_•|__|__|__|__|__|__|
-|_•|__|__|__|__|__|_+|   Across this board, the • are representing each of the burglar's steps
-|__|__|_•|__|__|__|__|
-|__|__|__|_•|__|__|__|
-|__|__|__|__|_•|__|__|
-|__|+ |__|__|__|_•|__|
-|__|__|__|__|__|__|_•|
-|  |  |  |  |  |  | •|
-‾‾‾‾‾‾‾‾‾‾‾•‾‾‾‾‾‾‾‾‾
-```
-
-We then aggregate all the probabilities of being detected from the starting point, the vault, and
-all the intersections on our path.
-
-## Tradeoffs
-
-• the grid's granularity will highly influence the outcome: the more intersections the burglar will
-step on, the higher the probability of him being detected. This comes from the initial
-simplification of deliberatly using a discrete space.
-
-• the simplification I chose (using a grid, and traveling horizontally as much as needed while
-walking up), will effectively result (sometimes) in a longer path from the entrance to the vault
-than necessary, resulting in longer exposure to the detectors, although that isn't reflected by the
-current algorithm.
-
-• for simplicity's sake, right now the map parsing function brings the whole file in memory before
-starting to look at it. Should the map become too large for that, we'd be able to easily change the
-parsing code so that it loads the file line by line. But then we might run into other memory issues,
-in other parts of the app.
-
-• the input .map file is not validated. Should the need arise, it'd be easy to add to the MapUtils
-singleton.
+Finally, run it: `./heist-1/bin/heist bank.map`.
