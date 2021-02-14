@@ -66,6 +66,9 @@ ___________•__________
 We then aggregate all the probabilities of being detected from the starting point, the vault, and
 all the intersections on our path.
 
+The runtime complexity of this solution is `w² × d`, where `w` is the width of the room, and `d` is
+the number of detectors.
+
 ## Tradeoffs
 
 • the grid's granularity will highly influence the outcome: the more intersections the burglar will
