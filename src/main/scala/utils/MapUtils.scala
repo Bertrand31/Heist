@@ -16,6 +16,6 @@ object MapUtils {
         detectors
           .map(_.split(' '))
           .collect({ case Array(x, y) => BankCoordinate(x.toDouble, y.toDouble) })
-      BankMap(head.toFloat, coordinates)
+      BankMap(head.toDouble, coordinates)
     })
 }
