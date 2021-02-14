@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-Make sure you have Java, Scala and SBT installed locally.
+Make sure you have Java, Scala and SBT installed locally and in your PATH.
 
 ## How to run it through SBT
 

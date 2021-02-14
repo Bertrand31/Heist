@@ -19,16 +19,16 @@ bank's room somewhat of a chessboard.
 On this grid, the burglar will travel from intersection to intersection.
 
 ```
-___________•__________  <- the • here represents the vault
+___________•__________  <- this • represents the vault
 |__|__|__|__|__|__|__|
-|__|__|__|__|__|__|_+|
+|__|__|__|__|__|__|_+|  <- each + represents a detector
 |__|__|__|__|__|__|__|
 |__|__|__|__|__|__|__|
 |__|__|__|__|__|__|__|
 |__|+_|__|__|__|__|__|  <- each + represents a detector
 |__|__|__|__|__|__|__|
 |  |  |  |  |  |  |  |
-‾‾‾‾‾‾‾‾‾‾‾•‾‾‾‾‾‾‾‾‾   <- the • here represents the entrance
+‾‾‾‾‾‾‾‾‾‾‾•‾‾‾‾‾‾‾‾‾   <- this • represents the entrance
 ```
 
 We then compute a "heatmap" of detectors over that grid, mapping each intersection to how likely it
