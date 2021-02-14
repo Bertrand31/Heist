@@ -2,12 +2,11 @@ name := "Heist"
 
 version := "1"
 
-scalaVersion := "2.13.3"
+scalaVersion := "2.13.4"
 
 libraryDependencies ++= Seq(
   "org.typelevel" %% "cats-core" % "2.4.1",
   "org.typelevel" %% "cats-effect" % "2.3.1",
-  // "com.github.bertrand31" %% "pandore" % "0.3",
   "org.scalatest" %% "scalatest" % "3.2.3",
 )
 
@@ -34,3 +33,10 @@ javaOptions ++= Seq(
   "-Xms1g",
   "-Xmx12g",
 )
+
+// SBT scoverage settings
+coverageEnabled := true
+coverageMinimum := 85
+coverageFailOnMinimum := true
+
+enablePlugins(JavaAppPackaging)

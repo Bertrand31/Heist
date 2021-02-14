@@ -61,11 +61,6 @@
   <check level="error" class="org.scalastyle.scalariform.XmlLiteralChecker" enabled="true" />
   <check level="error" class="org.scalastyle.scalariform.IllegalImportsChecker" enabled="true" />
   <check level="error" class="org.scalastyle.scalariform.NoCloneChecker" enabled="true" />
-  <check level="error" class="org.scalastyle.file.RegexChecker" enabled="true">
-    <parameters>
-      <parameter name="regex"><![CDATA[println]]></parameter>
-    </parameters>
-  </check>
   <check level="error" class="org.scalastyle.scalariform.NumberOfTypesChecker" enabled="true">
     <parameters>
       <parameter name="maxTypes"><![CDATA[15]]></parameter>
