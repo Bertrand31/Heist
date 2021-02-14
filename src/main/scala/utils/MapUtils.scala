@@ -1,8 +1,9 @@
-package heist
+package utils
 
 import java.io.File
 import scala.io.Source
 import cats.effect.IO
+import heist.{FloorCoordinate, BankMap}
 
 object MapUtils {
 
@@ -10,12 +11,12 @@ object MapUtils {
     IO { Source.fromFile(new File(path)).getLines() }
 
   def loadMap(path: String): IO[BankMap] =
-    loadFile(path).map(mapDefinition => {
-      val head +: _ +: detectors = mapDefinition.iterator.to(List)
+    loadFile(path).map(mapDescription => {
+      val head +: _ +: detectors = mapDescription.iterator.to(List)
       val coordinates =
         detectors
           .map(_.split(' '))
-          .collect({ case Array(x, y) => BankCoordinate(x.toDouble, y.toDouble) })
+          .collect({ case Array(x, y) => FloorCoordinate(x.toDouble, y.toDouble) })
       BankMap(head.toDouble, coordinates)
     })
 }

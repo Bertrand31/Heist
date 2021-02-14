@@ -1,5 +1,6 @@
 import org.scalatest.flatspec.AnyFlatSpec
-import heist.{BankCoordinate, MathUtils}
+import heist.FloorCoordinate
+import utils.MathUtils
 
 class MathUtilsSpec extends AnyFlatSpec {
 
@@ -27,15 +28,15 @@ class MathUtilsSpec extends AnyFlatSpec {
 
   it should "calculate the correct distance between two distinct points" in {
 
-    val a = BankCoordinate(1.3, 3.1)
-    val b = BankCoordinate(8.0, 15.9)
+    val a = FloorCoordinate(1.3, 3.1)
+    val b = FloorCoordinate(8.0, 15.9)
     assert(MathUtils.euclidianDistance(a, b) === 14.44749113168096)
   }
 
   it should "return 0 for two points with the same coordinates" in {
 
-    val a = BankCoordinate(1.3, 3.1)
-    val b = BankCoordinate(1.3, 3.1)
+    val a = FloorCoordinate(1.3, 3.1)
+    val b = FloorCoordinate(1.3, 3.1)
     assert(MathUtils.euclidianDistance(a, b) === 0)
   }
 
